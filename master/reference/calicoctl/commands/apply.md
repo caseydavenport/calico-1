@@ -5,13 +5,13 @@ canonical_url: 'https://docs.projectcalico.org/v3.5/reference/calicoctl/commands
 
 This sections describes the `calicoctl apply` command.
 
-Read the [calicoctl command line interface user reference]({{site.baseurl}}/{{page.version}}/reference/calicoctl/)
+Read the [calicoctl command line interface user reference]({{site.url}}/{{page.version}}/reference/calicoctl/)
 for a full list of calicoctl commands.
 
 > **Note**: The available actions for a specific resource type may be
 > limited based on the datastore used for {{site.prodname}} (etcdv3 / Kubernetes API).
 > Please refer to the
-> [Resources section]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/)
+> [Resources section]({{site.url}}/{{page.version}}/reference/calicoctl/resources/)
 > for details about each resource type.
 {: .alert .alert-info}
 
@@ -131,7 +131,7 @@ Description:
 
 ## See also
 
--  [Installing calicoctl]({{site.baseurl}}/{{page.version}}/getting-started/calicoctl/install)
--  [Resources]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/) for details on all valid resources, including file format
+-  [Installing calicoctl]({{site.url}}/{{page.version}}/getting-started/calicoctl/install)
+-  [Resources]({{site.url}}/{{page.version}}/reference/calicoctl/resources/) for details on all valid resources, including file format
    and schema
--  [NetworkPolicy]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/networkpolicy) for details on the {{site.prodname}} selector-based policy model
+-  [NetworkPolicy]({{site.url}}/{{page.version}}/reference/calicoctl/resources/networkpolicy) for details on the {{site.prodname}} selector-based policy model

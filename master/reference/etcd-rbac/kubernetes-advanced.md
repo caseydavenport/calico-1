@@ -35,9 +35,9 @@ created for the specific component with the information above.
 Once the certificates are generated and the users and roles have been setup
 in etcd the components using them must be configured. Here are the same
 components listed above and links to their detailed configuration pages:
-- [cni-plugin]({{site.baseurl}}/{{page.version}}/reference/cni-plugin/configuration)
-- [{{site.prodname}} Kubernetes controllers]({{site.baseurl}}/{{page.version}}/reference/kube-controllers/configuration)
-- [{{site.nodecontainer}}]({{site.baseurl}}/{{page.version}}/reference/node/configuration)
+- [cni-plugin]({{site.url}}/{{page.version}}/reference/cni-plugin/configuration)
+- [{{site.prodname}} Kubernetes controllers]({{site.url}}/{{page.version}}/reference/kube-controllers/configuration)
+- [{{site.nodecontainer}}]({{site.url}}/{{page.version}}/reference/node/configuration)
 - [calicoctl](/{{page.version}}/getting-started/calicoctl/install)
 
 Below are examples and suggestions when using a hosted {{site.prodname}} install where

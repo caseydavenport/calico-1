@@ -13,7 +13,7 @@ meet requirements imposed by an external firewall device or policy.
 
 There are three approaches to configuring IP address assignment behavior which
 the [IPAM section of the cni-plugin configuration reference
-document]({{site.baseurl}}/{{page.version}}/reference/cni-plugin/configuration#ipam)
+document]({{site.url}}/{{page.version}}/reference/cni-plugin/configuration#ipam)
 explains in detail. For the purposes of topology, IP address
 assignment must be per-host (node) which disqualifies Kubernetes annotations
 as an option since it is only configurable on a per-namespace or per-pod level.
@@ -170,4 +170,4 @@ EOF
 ## Related links
 
 For more information on the structure of the IP pool resource, see
-[the IP pools reference]({{ site.baseurl }}/{{ page.version }}/reference/calicoctl/resources/ippool).
+[the IP pools reference]({{ site.url }}/{{ page.version }}/reference/calicoctl/resources/ippool).

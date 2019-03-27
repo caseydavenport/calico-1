@@ -5,7 +5,7 @@ canonical_url: 'https://docs.projectcalico.org/v3.5/reference/calicoctl/commands
 
 This section describes the `calicoctl version` command.
 
-Read the [calicoctl Overview]({{site.baseurl}}/{{page.version}}/reference/calicoctl/)
+Read the [calicoctl Overview]({{site.url}}/{{page.version}}/reference/calicoctl/)
 for a full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl version' commands
@@ -40,4 +40,4 @@ Use `calicoctl version` to obtain the following data.
 
 ## See also
 
--  [Installing calicoctl]({{site.baseurl}}/{{page.version}}/getting-started/calicoctl/install).
+-  [Installing calicoctl]({{site.url}}/{{page.version}}/getting-started/calicoctl/install).

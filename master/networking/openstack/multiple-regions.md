@@ -14,9 +14,9 @@ The way this works is that all of the regions share the same {{site.prodname}}
 etcd datastore, but each region uses a different {{site.prodname}} namespace.
 For example, when the Neutron server for region "xyz-east" generates
 {{site.prodname}}
-[WorkloadEndpoint]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/workloadendpoint)
+[WorkloadEndpoint]({{site.url}}/{{page.version}}/reference/calicoctl/resources/workloadendpoint)
 and
-[NetworkPolicy]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/networkpolicy)
+[NetworkPolicy]({{site.url}}/{{page.version}}/reference/calicoctl/resources/networkpolicy)
 data automatically from OpenStack VMs and security groups, it writes that into
 the {{site.prodname}} datastore in the namespace "openstack-region-xyz-east".
 
@@ -39,7 +39,7 @@ regions.
 To install a multi-region OpenStack deployment with Calico, proceed
 region-by-region and follow [the normal procedure for adding Calico to an
 OpenStack
-region]({{site.baseurl}}/{{page.version}}/getting-started/openstack/installation),
+region]({{site.url}}/{{page.version}}/getting-started/openstack/installation),
 except for these points:
 
 1.  Only install a single etcd database (instead of one per region) and
@@ -133,7 +133,7 @@ the a7734e61... security group are allowed from VMs (in any region) with
 the label for the 85cc3048... security group.
 
 In the `selector` fields, you can use any of the
-[labels]({{site.baseurl}}/{{page.version}}/networking/openstack/labels) that
+[labels]({{site.url}}/{{page.version}}/networking/openstack/labels) that
 {{site.prodname}} adds to OpenStack VM endpoints, to identify the set of VMs
 that the policy should apply to, and the set of allowed (or denied) clients.
 Here are some more examples of selectors to get you started:

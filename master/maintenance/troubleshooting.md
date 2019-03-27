@@ -130,7 +130,7 @@ The {{site.nodecontainer}} container may report an "unready" status in Kubernete
 This can also occur when inactive Node resources are configured when using node-to-node mesh. Resolve cases like this by [decommissioning the stale nodes](../maintenance/decommissioning-a-node).
 
 Lastly this can occur when BGP connections to non-mesh peers go down. If this
-is a common occurrence in your BGP topology, you can disable BIRD readiness checks. See [node readiness]({{site.baseurl}}/{{page.version}}/reference/node/configuration#node-readiness)
+is a common occurrence in your BGP topology, you can disable BIRD readiness checks. See [node readiness]({{site.url}}/{{page.version}}/reference/node/configuration#node-readiness)
 for more information.
 
 ## Collecting diagnostics

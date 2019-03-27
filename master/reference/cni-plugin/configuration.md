@@ -284,7 +284,7 @@ If provided, these IP pools will override any IP pools specified in the CNI conf
 > **Note**: This requires the IP pools to exist before `ipv4pools` or
 > `ipv6pools` annotations are used. Requesting a subset of an IP pool
 > is not supported. IP pools requested in the annotations must exactly
-> match a configured [IPPool]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/ippool) resource.
+> match a configured [IPPool]({{site.url}}/{{page.version}}/reference/calicoctl/resources/ippool) resource.
 {: .alert .alert-info}
 
 > **Note**: The {{site.prodname}} CNI plugin supports specifying an annotation per namespace.
@@ -386,7 +386,7 @@ You can request a floating IP address for a pod through [Kubernetes annotations]
 Nodes will only assign workload addresses from IP pools which select them. By
 default, IP pools select all nodes, but this can be configured using the
 `nodeSelector` field. Check out the [IP pool resource
-document]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/ippool)
+document]({{site.url}}/{{page.version}}/reference/calicoctl/resources/ippool)
 for more details.
 
 Example:
@@ -415,7 +415,7 @@ Example:
    ```
 
 Check out the usage guide on [assigning IP addresses based on
-topology]({{site.baseurl}}/{{page.version}}/networking/assigning-ip-addresses-topology)
+topology]({{site.url}}/{{page.version}}/networking/assigning-ip-addresses-topology)
 for a full example.
 
 ### CNI network configuration lists

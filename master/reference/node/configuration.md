@@ -40,7 +40,7 @@ The `{{site.nodecontainer}}` container is primarily configured through environme
 | K8S_CERT_FILE | Location of a client certificate for accessing the Kubernetes API.          | string |
 | K8S_KEY_FILE | Location of a client key for accessing the Kubernetes API.                   | string |
 | K8S_CA_FILE | Location of a CA for accessing the Kubernetes API.                            | string |
-| CALICO_ADVERTISE_CLUSTER_IPS | Enable [advertising Kubernetes service cluster IPs over BGP]({{site.baseurl}}/{{page.version}}/networking/service-advertisement), within the specified CIDR. [Default: disabled] | IPv4 CIDR |
+| CALICO_ADVERTISE_CLUSTER_IPS | Enable [advertising Kubernetes service cluster IPs over BGP]({{site.url}}/{{page.version}}/networking/service-advertisement), within the specified CIDR. [Default: disabled] | IPv4 CIDR |
 
 In addition to the above, `{{site.nodecontainer}}` also supports [the standard Felix configuration environment variables](../felix/configuration).
 
@@ -81,7 +81,7 @@ The IP (for IPv4) and IP6 (for IPv6) environment variables are used to set,
 force autodetection, or disable auto detection of the address for the
 appropriate IP version for the node. When the environment variable is set,
 the address is saved in the
-[node resource configuration]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/node)
+[node resource configuration]({{site.url}}/{{page.version}}/reference/calicoctl/resources/node)
 for this host, overriding any previously configured value.
 
 #### IP setting special case values
@@ -188,7 +188,7 @@ Substitute `[flag]` with one or more of the following.
 
 The BIRD readiness endpoint ensures that the BGP mesh is healthy by verifying that all BGP peers are established and
 no graceful restart is in progress. If the BIRD readiness check is failing due to unreachable peers that are no longer
-in the cluster, see [decomissioning a node]({{site.baseurl}}/{{page.version}}/maintenance/decommissioning-a-node).
+in the cluster, see [decomissioning a node]({{site.url}}/{{page.version}}/maintenance/decommissioning-a-node).
 
 
 ### Setting `CALICO_ROUTER_ID` for IPv6 only system

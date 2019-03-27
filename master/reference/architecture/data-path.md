@@ -16,7 +16,7 @@ of whatever routing the workload itself might configure. For packets
 addressed to a workload, the last IP hop is that from the destination
 workload’s host to the workload itself.
 
-![Calico datapath]({{site.baseurl}}/images/calico-datapath.png)
+![Calico datapath]({{site.url}}/images/calico-datapath.png)
 
 Suppose that IPv4 addresses for the workloads are allocated from a
 datacenter-private subnet of 10.65/16, and that the hosts have IP

@@ -90,12 +90,12 @@ destination IP 172.18.3.23.  There is no NAT anywhere along this datapath.
 
 Firstly, where instances are attached directly to provider networks:
 
-![]({{site.baseurl}}/images/networking-calico/calico-provider.png)
+![]({{site.url}}/images/networking-calico/calico-provider.png)
 
 Secondly, where instances are attached to an externally-connected tenant
 network:
 
-![]({{site.baseurl}}/images/networking-calico/calico-tenant.png)
+![]({{site.url}}/images/networking-calico/calico-tenant.png)
 
 In the general case those patterns may be combined - so in general there may be
 any number of {{site.prodname}} provider networks, and any number of {{site.prodname}} tenant

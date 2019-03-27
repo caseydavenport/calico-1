@@ -51,16 +51,16 @@ Description:
 Details on the `calicoctl` commands are described in the documents linked below
 organized by top level command.
 
--  [calicoctl create]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/create)
--  [calicoctl replace]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/replace)
--  [calicoctl apply]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/apply)
--  [calicoctl delete]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/delete)
--  [calicoctl get]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/get)
--  [calicoctl label]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/label)
--  [calicoctl ipam]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/ipam)
--  [calicoctl node]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/node)
--  [calicoctl convert]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/convert)
--  [calicoctl version]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/version)
+-  [calicoctl create]({{site.url}}/{{page.version}}/reference/calicoctl/commands/create)
+-  [calicoctl replace]({{site.url}}/{{page.version}}/reference/calicoctl/commands/replace)
+-  [calicoctl apply]({{site.url}}/{{page.version}}/reference/calicoctl/commands/apply)
+-  [calicoctl delete]({{site.url}}/{{page.version}}/reference/calicoctl/commands/delete)
+-  [calicoctl get]({{site.url}}/{{page.version}}/reference/calicoctl/commands/get)
+-  [calicoctl label]({{site.url}}/{{page.version}}/reference/calicoctl/commands/label)
+-  [calicoctl ipam]({{site.url}}/{{page.version}}/reference/calicoctl/commands/ipam)
+-  [calicoctl node]({{site.url}}/{{page.version}}/reference/calicoctl/commands/node)
+-  [calicoctl convert]({{site.url}}/{{page.version}}/reference/calicoctl/commands/convert)
+-  [calicoctl version]({{site.url}}/{{page.version}}/reference/calicoctl/commands/version)
 
 ## Modifying low-level component configurations
 
@@ -69,4 +69,4 @@ In order to update low-level Felix or BGP settings (`FelixConfiguration` and `BG
 1. Modify the saved resource file.
 1. Update the resource using `apply` or `replace` command: `calicoctl replace -f config.yaml`.
 
-See [Configuring Felix]({{site.baseurl}}/{{page.version}}/reference/felix/configuration) for more details.
+See [Configuring Felix]({{site.url}}/{{page.version}}/reference/felix/configuration) for more details.

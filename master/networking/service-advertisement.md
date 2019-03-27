@@ -61,4 +61,4 @@ In order to implement this behavior, Calico does the following.
 
 [external-traffic-policy]: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/#preserving-the-client-source-ip
 [apiserver]: https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/
-[reference]: {{site.baseurl}}/{{page.version}}/getting-started/kubernetes/installation/config-options#configuring-service-advertisement
+[reference]: {{site.url}}/{{page.version}}/getting-started/kubernetes/installation/config-options#configuring-service-advertisement

@@ -44,18 +44,18 @@ spec:
 
 The following resources are supported:
 
-- [BGPPeer]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/bgppeer)
-- [BGPConfiguration]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/bgpconfig)
-- [HostEndpoint]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/hostendpoint)
-- [NetworkPolicy]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/networkpolicy)
-- [GlobalNetworkPolicy]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/globalnetworkpolicy)
-- [NetworkSet]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/networkset)
-- [GlobalNetworkSet]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/globalnetworkset)
-- [Node]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/node)
-- [IPPool]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/ippool)
-- [Profile]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/profile)
-- [FelixConfiguration]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/felixconfig)
-- [WorkloadEndpoint]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/workloadendpoint)
+- [BGPPeer]({{site.url}}/{{page.version}}/reference/calicoctl/resources/bgppeer)
+- [BGPConfiguration]({{site.url}}/{{page.version}}/reference/calicoctl/resources/bgpconfig)
+- [HostEndpoint]({{site.url}}/{{page.version}}/reference/calicoctl/resources/hostendpoint)
+- [NetworkPolicy]({{site.url}}/{{page.version}}/reference/calicoctl/resources/networkpolicy)
+- [GlobalNetworkPolicy]({{site.url}}/{{page.version}}/reference/calicoctl/resources/globalnetworkpolicy)
+- [NetworkSet]({{site.url}}/{{page.version}}/reference/calicoctl/resources/networkset)
+- [GlobalNetworkSet]({{site.url}}/{{page.version}}/reference/calicoctl/resources/globalnetworkset)
+- [Node]({{site.url}}/{{page.version}}/reference/calicoctl/resources/node)
+- [IPPool]({{site.url}}/{{page.version}}/reference/calicoctl/resources/ippool)
+- [Profile]({{site.url}}/{{page.version}}/reference/calicoctl/resources/profile)
+- [FelixConfiguration]({{site.url}}/{{page.version}}/reference/calicoctl/resources/felixconfig)
+- [WorkloadEndpoint]({{site.url}}/{{page.version}}/reference/calicoctl/resources/workloadendpoint)
 
 ### Resource name requirements
 

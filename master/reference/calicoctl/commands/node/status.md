@@ -5,7 +5,7 @@ canonical_url: 'https://docs.projectcalico.org/v3.5/reference/calicoctl/commands
 
 This sections describes the `calicoctl node status` command.
 
-Read the [calicoctl Overview]({{site.baseurl}}/{{page.version}}/reference/calicoctl)
+Read the [calicoctl Overview]({{site.url}}/{{page.version}}/reference/calicoctl)
 for a full list of calicoctl commands.
 
 ## Displaying the help text for 'calicoctl node status' command

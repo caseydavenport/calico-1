@@ -12,7 +12,7 @@ over the network, and in particular you have no option to set up BGP peering bet
 your {{site.prodname}} nodes and the network routers.
 
 {{site.prodname}} can be configured to use IP-in-IP encapsulation by enabling the IPIP option
-on the [IP pool resource]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/ippool).
+on the [IP pool resource]({{site.url}}/{{page.version}}/reference/calicoctl/resources/ippool).
 When enabled, {{site.prodname}} will use IP-in-IP encapsulation when routing packets *to*
 workload IPs falling in the IP pool range.
 

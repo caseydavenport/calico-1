@@ -17,16 +17,16 @@ interfaces.
 
 Each host endpoint may include a set of labels and list of profiles that {{site.prodname}}
 will use to apply
-[policy]({{site.baseurl}}/{{page.version}}/reference/calicoctl/resources/networkpolicy)
+[policy]({{site.url}}/{{page.version}}/reference/calicoctl/resources/networkpolicy)
 to the interface.  If no profiles or labels are applied, {{site.prodname}} will not apply
 any policy.
 
 > **Note**: Currently, for host endpoints with `interfaceName: *`, only [pre-DNAT
-> policy]({{site.baseurl}}/{{page.version}}/security/host-endpoints/pre-dnat) is
+> policy]({{site.url}}/{{page.version}}/security/host-endpoints/pre-dnat) is
 > implemented.
 {: .alert .alert-info}
 
-For `calicoctl` [commands]({{site.baseurl}}/{{page.version}}/reference/calicoctl/commands/) that specify a resource type on the CLI, the following
+For `calicoctl` [commands]({{site.url}}/{{page.version}}/reference/calicoctl/commands/) that specify a resource type on the CLI, the following
 aliases are supported (all case insensitive): `hostendpoint`, `hostendpoints`, `hep`, `heps`.
 
 > **Important**: When rendering security rules on other hosts, {{site.prodname}} uses the

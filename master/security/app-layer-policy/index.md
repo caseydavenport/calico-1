@@ -9,10 +9,10 @@ layer policy to mitigate some common threats.
 ## Prerequisites
 
 To create a Kubernetes cluster which supports application layer policy, follow
-one of our [getting started guides]({{site.baseurl}}/{{page.version}}/getting-started/),
-and [enable application layer policy]({{site.baseurl}}/{{page.version}}/getting-started/kubernetes/installation/app-layer-policy).
+one of our [getting started guides]({{site.url}}/{{page.version}}/getting-started/),
+and [enable application layer policy]({{site.url}}/{{page.version}}/getting-started/kubernetes/installation/app-layer-policy).
 
-You will also need the [calicoctl]({{site.baseurl}}/{{page.version}}/getting-started/calicoctl/install) command line tool.
+You will also need the [calicoctl]({{site.url}}/{{page.version}}/getting-started/calicoctl/install) command line tool.
 
 ### Install the demo application
 
